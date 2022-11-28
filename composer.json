@@ -1,0 +1,23 @@
+{
+  "name": "usp/moodle",
+  "require": {
+    "pkp/ojs": "3.3.0.13"
+  },
+  "extra": {
+    "installerdir": "ojs"
+  },
+  "autoload": {
+    "psr-4": {
+      "OjsComposer\\": "src"
+    }
+  },
+  "scripts": {
+    "post-install-cmd": "OjsComposer\\OjsComposer::postInstall",
+    "post-update-cmd": "OjsComposer\\OjsComposer::postInstall"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
+}

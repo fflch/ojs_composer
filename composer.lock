@@ -1,0 +1,87 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f7caf3f86a1e5186e430439980a651ab",
+    "packages": [
+        {
+            "name": "pkp/ojs",
+            "version": "3.3.0.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thiagogomesverissimo/ojs.git",
+                "reference": "22d7964cec1e8636763a3818e2a49cb1f8de395e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thiagogomesverissimo/ojs/zipball/22d7964cec1e8636763a3818e2a49cb1f8de395e",
+                "reference": "22d7964cec1e8636763a3818e2a49cb1f8de395e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "ext-fileinfo": "*",
+                "ext-gd": "*",
+                "ext-hash": "*",
+                "ext-iconv": "*",
+                "ext-intl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-openssl": "*",
+                "ext-pcre": "*",
+                "ext-simplexml": "*",
+                "ext-spl": "*",
+                "ext-xml": "*",
+                "ext-xmlreader": "*",
+                "ext-zip": "*",
+                "ext-zlib": "*",
+                "php": ">=7.4.0"
+            },
+            "require-dev": {
+                "behat/behat": "3.11.*",
+                "behat/mink": "^1.10.0",
+                "behat/mink-goutte-driver": "^2.0",
+                "friends-of-behat/mink-extension": "^2.7.2",
+                "mikey179/vfsstream": "1.6.*",
+                "oleg-andreyev/mink-phpwebdriver": "^1.0.1",
+                "phpunit/phpunit": "9.5.*",
+                "symfony/process": "^4.4 || ^5.0"
+            },
+            "suggest": {
+                "ext-exif": "Enabling Exif PHP extension is recommended, it is used by ojs to parse image meta data.",
+                "ext-mysqli": "Needed when ojs uses MySQL or MariaDB database.",
+                "ext-oci8": "Needed when ojs uses Oracle database.",
+                "ext-pgsql": "Needed when ojs uses PostgreSQL database.",
+                "ext-soap": "Enabling SOAP PHP extension is useful for web services and some plugins.",
+                "ext-sodium": "Enabling Sodium PHP extension is recommended, it is used by ojs encryption API.",
+                "ext-sqlsrv": "Needed when ojs uses MS SQL Server database.",
+                "ext-tokenizer": "Enabling Tokenizer PHP extension is recommended, it improves ojs Networking functionality."
+            },
+            "type": "project",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "ojs",
+            "homepage": "https://pkp.sfu.ca/ojs/",
+            "support": {
+                "issues": "https://github.com/thiagogomesverissimo/ojs/issues",
+                "source": "https://github.com/thiagogomesverissimo/ojs/tree/3.3.0.13"
+            },
+            "time": "2022-11-28T17:49:59+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
