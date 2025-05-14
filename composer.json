@@ -1,7 +1,7 @@
 {
   "name": "usp/moodle",
   "require": {
-    "pkp/ojs": "3.3.0.13"
+    "pkp/ojs": "3.4.0.8"
   },
   "extra": {
     "installerdir": "ojs"
